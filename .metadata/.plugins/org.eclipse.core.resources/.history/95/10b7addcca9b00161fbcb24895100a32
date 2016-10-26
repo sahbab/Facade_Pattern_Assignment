@@ -1,0 +1,5 @@
+package edu.greenriver.it.facade;
+
+public final class StringParsing {
+
+}

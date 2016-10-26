@@ -1,0 +1,24 @@
+/**
+ * 
+ */
+package edu.greenriver.it.facade;
+
+/**
+ * @author sahba bahizad
+ *
+ */
+public final class StringOperations {
+
+	public String[] removeDuplicates(String[] string){
+		
+		return null;
+	}
+	
+	public void resize(){
+		
+	}
+	
+	public void filter(){
+		
+	}
+}

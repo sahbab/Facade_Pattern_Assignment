@@ -1,0 +1,21 @@
+package edu.greenriver.it.facade;
+
+public final class StringRegex {
+
+	public static boolean isEmail(String subject) {
+
+	}
+
+	public static boolean isZipCode(String subject) {
+
+	}
+
+	public static boolean isPhoneNumber(String subject) {
+
+	}
+
+	public static boolean isUrl(String subject) {
+
+	}
+
+}
