@@ -3,8 +3,6 @@
  */
 package edu.greenriver.it.facade;
 
-import edu.greenriver.it.helper.StringOperations;
-
 /**
  * @author sahba bahizad
  *
@@ -26,16 +24,8 @@ public final class Operator {
 	}
 	
 	public Operator filter(String[] value, String search) {
-		StringOperations newString = new StringOperations();
-		subject = newString.filter(value, search);
-	}
-	public Operator removeDuplicates(String[] string){
 		return null;
-		
 	}
-	public Operator resize(String[] value, int length) {
-		return null;
-		
-	}
+	
 
 }
