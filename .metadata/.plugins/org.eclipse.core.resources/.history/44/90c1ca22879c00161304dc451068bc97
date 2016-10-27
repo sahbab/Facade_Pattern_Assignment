@@ -16,24 +16,15 @@ public final class Facade {
 		StringRegex regexValidation = new StringRegex();
 		switch (type) {
 		case EMAIL: 
-			result = regexValidation.isEmail(subject);
-			break;
-		case ZIPCODE: 
-			result = regexValidation.isZipCode(subject);
-			break;
-		case PHONE_NUMBER: 
-			result = regexValidation.isPhoneNumber(subject);
-			break;
-		case URL: 
-			result = regexValidation.isUrl(subject);
+			result = regexValidation.isEmail(subject)
 			break;
 		default:
 			break;
 		}
-		return result;
+		return false;
 	}
 
-	public static Operator getOperator(String[] subject) {
-		return null;
+	public static void getOperator() {
+
 	}
 }

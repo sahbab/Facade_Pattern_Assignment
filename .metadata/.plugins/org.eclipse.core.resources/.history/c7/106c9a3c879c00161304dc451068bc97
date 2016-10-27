@@ -18,22 +18,13 @@ public final class Facade {
 		case EMAIL: 
 			result = regexValidation.isEmail(subject);
 			break;
-		case ZIPCODE: 
-			result = regexValidation.isZipCode(subject);
-			break;
-		case PHONE_NUMBER: 
-			result = regexValidation.isPhoneNumber(subject);
-			break;
-		case URL: 
-			result = regexValidation.isUrl(subject);
-			break;
 		default:
 			break;
 		}
 		return result;
 	}
 
-	public static Operator getOperator(String[] subject) {
-		return null;
+	public static void getOperator() {
+
 	}
 }
